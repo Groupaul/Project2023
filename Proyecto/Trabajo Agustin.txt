@@ -1,0 +1,40 @@
+13/05/2023
+
+Cree el archivo windows form correspondiente al proyecto.
+Agregue las carpetas correspondientes en el archivo (Grafica, Logica, Persistencia).
+Edite el Form menu con un posible diseño(BETA).
+Subi todo a la carpeta programacion en el OneDrive.
+Cree una carpeta donde seran subidos archivos como imagenes, los logos, etc(La carpeta se llama Recursos).
+Subi el logo, su respectivo psd en caso de edicion, la letra del proyecto, formato caratula, carta de presentacion y acuse de recibo a la misma carpeta de recursos.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+27/05/2023
+
+Cree el Formato Paginas Entrega que esta en Recursos/Documentos para que sea mas facil y rapido realizar lo que son las entregas.
+Practicamente ya termine la primera entrega de formacion empresarial, falta la pagina 6 y 7.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+04/06/2023
+
+Cree el repositorio de github perteneciente al grupo.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+09/06/2023
+
+Cree la estructura de la red en packet tracer
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+10/06/2023
+
+Posiblemente finalizado la primera entrega de formacion empresarial.
+Subi la primera entrega en su carpeta correspondiente del OneDrive.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+12/06/2023
+
+Link a miro: https://miro.com/welcomeonboard/aUhBWUk3dG1UR0s0dW83ZTJ2a2dUYVVVQlZsS3RMWTBNNERGY2JsR0djV2sxQklSZkdmOFpvZEFoQU1BSzBwMXwzNDU4NzY0NTU2ODkwMjc2OTQ0fDI=?share_link_id=104839697262
