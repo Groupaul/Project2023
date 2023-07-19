@@ -38,3 +38,51 @@ Subi la primera entrega en su carpeta correspondiente del OneDrive.
 12/06/2023
 
 Link a miro: https://miro.com/welcomeonboard/aUhBWUk3dG1UR0s0dW83ZTJ2a2dUYVVVQlZsS3RMWTBNNERGY2JsR0djV2sxQklSZkdmOFpvZEFoQU1BSzBwMXwzNDU4NzY0NTU2ODkwMjc2OTQ0fDI=?share_link_id=104839697262
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+14/06/2023
+
+Trabaje con el equipo de desarrollo en el apartado de ADA
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+15/06/2023
+
+Cree y modifique un posible prototipo de la aplicacion de karate.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+16/06/2023
+
+Consegui los presupuestos de la aplicacion mysql en oracle store, la captura de pantalla esta en recursos
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+19/06/2023
+
+Rediseñe el programa entero agregando funcionalidades personalizadas.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+22/06/2023
+
+Agregue nuevas funcionalidades y restricciones a la hora de ingresar datos en sus casillas correspondientes
+Numeros donde se ingresan numeros.
+Letras donde se ingresan letras.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+05/07/2023
+
+Agregue nuevas funcionalidades al codigo del software.
+Configure Centos para sistemas operativos.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+19/07/2023
+
+Termine la carpeta de Gestion de Proyecto, Sistemas operativos.
+En breves Termino el apartado de programacion.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
