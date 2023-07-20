@@ -10,3 +10,7 @@ Continue con el DER de Base de Datos, arregle algunos errores del mismo
 Termine junto con mis compañeros el Arbol De Decisiones de ADA
 -------------------------------------------------------------------------
 ----------------------------------------------------------------------------
+20/07/23
+Termine el DER de Base De Datos y lo normalice a 3ra Forma Normal, aunque habria que ver si hay errores ya que no estoy seguro
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
