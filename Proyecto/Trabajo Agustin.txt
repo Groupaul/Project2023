@@ -86,3 +86,11 @@ Termine la carpeta de Gestion de Proyecto, Sistemas operativos.
 En breves Termino el apartado de programacion.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
+
+22/07/2023
+
+Instale en centos Mysql, apache y php.
+Guarde la maquina virtual en un .rar.
+Lista para subir a onedive y pasarsela al profesor.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
