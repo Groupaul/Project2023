@@ -1,0 +1,81 @@
+usr=
+dir=/home/Usuarios
+pas=
+par=
+vcs=27/06/2023 # vencimiento contraseña
+usuario=$(yad --form \
+  --title="Software Alta de usuario" \
+  --date-format="%-d/%m/%Y" \
+  --width=400 \
+  --height=300 \
+  --center \
+  --field="Nombre de usuario : " "$usr" \
+  --field="Directorio de inicio : " "$dir" \
+  --field="Contraseña : ":H "$pas" \
+  --field="Repita contraseña : ":H "$par" \
+  --field="Vencimiento contraseña:":DT "$vcs"  \
+  --field="Interprete :":CB /bin/bash!/bin/sh!/sbin/nologin!/bin/false!/bin/sync!/sbin/halt!/sbin/shutdown )
+  #--columns="3" \
+
+# monitoreo de la variable total
+echo $usuario
+
+# salida de emergencia
+#exit
+
+# desmembrado de componentes : pisamos los valores anteriores
+usr=$(echo $usuario | cut -f1 -d'|')
+dir=$(echo $usuario | cut -f2 -d'|')
+pwd=$(echo $usuario | cut -f3 -d'|')
+par=$(echo $usuario | cut -f4 -d'|')
+vcs=$(echo $usuario | cut -f5 -d'|')
+idc=$(echo $usuario | cut -f6 -d'|') # interprete de comandos
+
+# monitoreo de variables extraidas
+echo -e user : "\t\t\t" $usr
+echo -e home : "\t\t\t" $dir
+echo -e password : "\t\t" $pwd
+echo -e password again : "\t" $par
+echo -e password expired : "\t" $vcs
+echo -e shell : "\t\t" $idc 
+
+# ensamblado de orden useradd
+# vua : variable useradd
+vua='useradd -d '$dir' -m -c -s '$idc' '$usr
+echo $vua # monitoreo
+# intento de creacion efectiva del usuario (ejecuto la variable vua)
+$($vua)
+
+if [ $? -eq 0 ]
+then
+  texto="<span weight=\"bold\" foreground=\"green\">Alta : </span> exitosa !"
+  yad --title=" * ALTA de USUARIO * " \
+    --image=gtk-info \
+    --center \
+    --width=340 \
+    --height=80 \
+    --text-align=center \
+    --text="${texto}" \
+    --button=Aceptar
+else
+  texto="<span weight=\"bold\" foreground=\"green\">Alta : </span> fallida !"
+  yad --title=" * ALTA de USUARIO * " \
+    --image=gtk-info \
+    --center \
+    --width=340 \
+    --height=80 \
+    --text-align=center \
+    --text="${texto}" \
+    --button=Aceptar
+fi
+
+# ANEXO
+# consolidacion de los interpretes usados hasta ahora :
+#[c7@localhost ~]$ cat /etc/passwd | cut -f7 -d: | sort | uniq -c
+#      3 /bin/bash
+#      1 /bin/false
+#      1 /bin/sync
+#      1 /sbin/halt
+#     39 /sbin/nologin
+#      1 /sbin/shutdown
+

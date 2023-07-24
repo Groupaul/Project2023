@@ -1,0 +1,71 @@
+IGT Sistema Informatico de Gestion de Torneos
+# SIGTadmin : usuario administrador que ejecuta estos shellscripts
+# solo tiene permiso sudooer sobre SIGT*
+
+usr=
+dir=/home/Usuarios
+pas=
+par=
+vcs=27/06/2023 # vencimiento contraseña
+usuario=$(yad --form \
+  --title="Software Baja de usuario" \
+  --width=400 \
+  --height=300 \
+  --center \
+  --field="Nombre de usuario : " "$usr" )
+  #--columns="3" \
+
+# monitoreo de la variable total
+echo $usuario
+
+# salida de emergencia
+#exit
+# de aca en mas no corre
+
+# desmembrado de componentes : pisamos los valores anteriores
+usr=$(echo $usuario | cut -f1 -d'|')
+
+# monitoreo de variables extraidas
+echo -e user : "\t\t\t" $usr
+
+# ensamblado de orden userdel
+# vud : variable userdel
+vud='userdel -r '$usr
+echo $vud # monitoreo
+# intento de eliminacion efectiva del usuario (ejecuto la variable vud)
+#$($vud)
+$vud
+
+if [ $? -eq 0 ]
+then
+  texto="<span weight=\"bold\" foreground=\"green\">Baja : </span> exitosa !"
+  yad --title=" * BAJA de USUARIO * " \
+    --image=gtk-info \
+    --center \
+    --width=340 \
+    --height=80 \
+    --text-align=center \
+    --text="${texto}" \
+    --button=Aceptar
+else
+  texto="<span weight=\"bold\" foreground=\"green\">Baja : </span> fallida !"
+  yad --title=" * BAJA de USUARIO * " \
+    --image=gtk-info \
+    --center \
+    --width=340 \
+    --height=80 \
+    --text-align=center \
+    --text="${texto}" \
+    --button=Aceptar
+fi
+
+# ANEXO
+# consolidacion de los interpretes usados hasta ahora :
+#[c7@localhost ~]$ cat /etc/passwd | cut -f7 -d: | sort | uniq -c
+#      3 /bin/bash
+#      1 /bin/false
+#      1 /bin/sync
+#      1 /sbin/halt
+#     39 /sbin/nologin
+#      1 /sbin/shutdown
+
