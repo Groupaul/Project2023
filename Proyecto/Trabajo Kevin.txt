@@ -3,14 +3,10 @@
 Hice el primero y segundo punto de ingles
 ademas de parte del cuarto
 falta terminar el cuarto y el tercer punto
-
-
 -----------------------------------------------------------------------------------
-
 13/06/2023
 
 Corregi los errores en el punto 4 de ingles
-
 -----------------------------------------------------------------------------------
 14/06/2023
 hoy coopere junto al equipo para la realisacion de el cuarto y sexto punto de los requerimientos de analisis y diseño de aplicaciones 
@@ -24,3 +20,13 @@ Trabaje junto al equipo en varios puntos del proyecto
 -----------------------------------------------------------------------------------
 18/06/2023
 Trabaje en el diagrama de flujo del proyecto
+-----------------------------------------------------------------------------------
+22/07/2023
+Termine la carpeta de ada
+-----------------------------------------------------------------------------------
+22/07/2023
+trabaje junto al equipo y organizamos el formato de las carpetas para la segunda entrega
+-----------------------------------------------------------------------------------
+07/9/2023
+realize los diagramas UML para la segunda entrega de ada
+----------------------------------------------------------------------------------- 
